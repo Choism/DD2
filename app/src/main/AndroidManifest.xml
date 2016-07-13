@@ -18,7 +18,16 @@
             </intent-filter>
         </activity>
         <activity android:name=".GridActivity" />
-        <activity android:name=".TextActivity"></activity>
+        <activity android:name=".TextActivity" />
+        <activity android:name=".ButtonActivity" />
+        <activity android:name=".CheckBoxActivity" />
+        <activity android:name=".adioActivity" />
+        <activity
+            android:name=".EdTextActivity"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity android:name=".ImageActivity" />
+        <activity android:name=".ProgActivity" />
+        <activity android:name=".ProgrActivity"></activity>
     </application>
 
 </manifest>
